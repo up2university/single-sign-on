@@ -42,7 +42,7 @@
 | lastname          |  sn                   |
 | email             |  mail                 |
 
-# Available Up2U Attributes:
+# Available Up2U Attributes (WIP!!)
 
 - uid
 - mail
