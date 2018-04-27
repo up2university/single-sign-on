@@ -326,6 +326,12 @@ TODO: This needs to be cleaned up a bit
 		Order allow,deny
 		allow from all
   </Directory>
+    # always fill env with shib variable
+    <Location />
+        AuthType shibboleth
+        ShibRequestSetting requireSession false
+        Require shibboleth
+    </Location>
 
   <Location /index.php/login>
     AuthType shibboleth
