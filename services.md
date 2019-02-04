@@ -13,7 +13,7 @@ In SAML 2 you need to run a so called `service provider` for your service. Widly
 This guide has been tested on Debian 8 and 9 but should work similar on ubuntu installations. For other distributions consult the official `Shibboleth` documentation.
 
  1. Install packges: `apt-get install libapache2-mod-shib2 libshibsp7 shibboleth-sp2-common`
- 2. Configure `/etc/sbhibboleth/shobboleth2.xml`. You can use the default and configure the following values: 
+ 2. Configure `/etc/sbhibboleth/shibboleth2.xml`. You can use the default and configure the following values: 
    - entityID: Use your identifier for this SP e.g. `entityID="https://oc.test.up2university.eu/shibboleth"`
    - SSO: The url of the metadata for the up2u SSO instance which will be used to start an authentication workflow: ```<SSO entityID="https://sso.up2university.eu/simplesaml/saml2/idp/metadata.php">
               SAML2
